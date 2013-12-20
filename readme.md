@@ -1,6 +1,8 @@
-# Karma generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-karma.png?branch=master)](http://travis-ci.org/yeoman/generator-karma)
+# Karma generator for ngPrise [![Build Status](https://secure.travis-ci.org/yeoman/generator-karma.png?branch=master)](http://travis-ci.org/yeoman/generator-karma)
 
-Maintainer: [Brian Ford](https://github.com/btford)
+Maintainer: [Shai Reznik](https://github.com/shairez)
+
+Based on [generator-karma](https://github.com/yeoman/generator-karma/)
 
 See the [Karma documentation](http://karma-runner.github.com/) for more info.
 
@@ -14,9 +16,9 @@ PhantomJS is a great option too, but it has the one drawback that it won't expos
 
 ## Usage
 
-Install it globally `npm install -g generator-karma`.
+Install it globally `npm install -g shairez/generator-karma`.
 
-Running `yo karma` will generate two files for your project: `karma.conf.js` and `karma-e2e.conf.js`. It will then install the npm dependencies.
+Running `yo karma` will generate a file for your project: `karma.conf.js`  It will then install the npm dependencies.
 
 Note that you'll need to update your `Gruntfile.js`. If you're using Karma through the [AngularJS generator](https://github.com/yeoman/generator-angular), all of the configuration is done for you.
 
